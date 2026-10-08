@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "MenuActions",
+    "maps": [
+        {
+            "name": "Menu",
+            "id": "8c4a376d-6ed6-41b4-af2c-f578a10554dc",
+            "actions": [
+                {
+                    "name": "OpenMenu",
+                    "type": "Button",
+                    "id": "8adb0ed1-98d8-48b8-855b-e4ea974f71dd",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "CloseGame",
+                    "type": "Button",
+                    "id": "2405f7c4-b600-42d6-a9bc-e6fde98f8712",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "19c6a397-42b8-4b06-bfc9-314da2d8b22f",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08a0a3b2-5229-4f2e-8933-890e2773d768",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CloseGame",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
